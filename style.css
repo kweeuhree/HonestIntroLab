@@ -30,15 +30,52 @@
 }
 
 .rightArrow {
-    /* border: solid purple; */
     height: 30px;
 }
+
+/* Navigation Bar */
 
 .navBar {
     padding: 10px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+
+/* Nav-Two Bar */
+
+.nav-two {
+    text-align: center;
+    
+}
+
+.nav-two-bar {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin: 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height: 3vw;
+}
+
+.nav-item {
+    list-style: none;
+    font-size: 1.2vw;
+    font-family: arial;
+    padding:0.8vw;
+    
+
+}
+.nav-item:hover{
+    border-top: 3px solid black;
+
+}
+
+
+/* Image Container and Heading */
 
 .imageContainer {
     position: relative;
@@ -62,6 +99,7 @@
  justify-content: center;
  align-items: center;
  flex-flow: column;
+ 
 }
 
 .full-width-heading {
@@ -70,12 +108,14 @@
     font-weight: 700;
     font-size: 2.5vw;
     margin: 1vw;
+    line-height: 140%;
 }
 
 .full-width-copy {
     /* border: solid salmon; */
     margin: 1vw;
-    font-size: 2vw;
+    font-size: 1.8vw;
+    line-height: 140%;
   
 }
 
