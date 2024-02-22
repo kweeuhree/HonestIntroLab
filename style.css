@@ -1,36 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 
 .AdContainer {
     /* border: solid blue; */
     display: flex;
+    align-items: center;
     justify-content: space-around;
     background-color:#B9D0BA;
-    padding: 15px;
+    font-size: 1vw;
 }
 
-#top {
-    border-radius: 22px;
+.prev-arrow {
+    transform: rotate(180deg);
 }
 
-.leftArrow {
-    /*border: solid red;*/
-    height: 30px;
-
+.middle-text {
+    display: flex;
 }
 
 .adText {
-    /* border: solid blue; */
-    height: 30px;
-
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .09rem;
 }
 
 .adLink {
-    /* border: solid green; */
-    height: 30px;
+    letter-spacing: .05rem;
+}
 
+.leftArrow {
+    background-color: transparent;
+    border: none;
 }
 
 .rightArrow {
-    height: 30px;
+    background-color: transparent;
+    border: none;
 }
 
 /* Navigation Bar */
@@ -41,6 +48,45 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.search {
+    display: flex;
+    gap: 5%;
+}
+
+.search-input-div {
+    border-bottom: 0.1vw solid lightgray;
+}
+
+.search-input {
+    color: rgb(95, 95, 95);
+    font-size: 1vw;
+    border: none;
+    padding: 0.5vw;
+}
+
+
+
+.sign-in-cart {
+    /* border:solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.sign-in-links {
+    /* border:solid blue; */
+    font-size: 1vw;
+    font-weight: 550;
+    padding: 5%;
+    text-wrap: nowrap;
+}
+
+.sign-in-links a{
+    color: black;
+}
+
 
 /* Nav-Two Bar */
 
@@ -96,7 +142,6 @@
  transform: translate(-50%, 35%);
  width: 38%;
  text-align: center;
- font-family: Arial, Helvetica, sans-serif;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -111,6 +156,7 @@
     font-size: 2.5vw;
     margin: 0.8vw;
     line-height: 120%;
+    letter-spacing: .07rem;
 }
 
 .full-width-copy {
