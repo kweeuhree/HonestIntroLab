@@ -30,15 +30,19 @@ body {
     letter-spacing: .05rem;
 }
 
-.leftArrow {
+.learn-more {
+    color: black;
+}
+
+.leftArrow, .rightArrow {
     background-color: transparent;
     border: none;
 }
 
-.rightArrow {
-    background-color: transparent;
-    border: none;
+.leftArrow, .rightArrow:hover {
+    cursor:pointer;
 }
+
 
 /* Navigation Bar */
 
